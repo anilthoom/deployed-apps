@@ -10,8 +10,8 @@ import { State } from '../common/state';
 })
 export class UtilityService {
 
-  private countriesUrl = 'http://shrikart.ap-south-1.elasticbeanstalk.com/api/countries';
-  private statesUrl = 'http://shrikart.ap-south-1.elasticbeanstalk.com/api/states';
+  private countriesUrl = 'http://microservice.elasticbeanstalk.com/api/countries';
+  private statesUrl = 'http://microservice.elasticbeanstalk.com/api/states';
 
   constructor(private httpClient: HttpClient) { }
 
