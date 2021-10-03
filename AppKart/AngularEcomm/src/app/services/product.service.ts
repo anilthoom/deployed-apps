@@ -11,8 +11,8 @@ import { $ } from 'protractor';
 })
 export class ProductService {
 
-  private baseUrl = 'http://shrikart.ap-south-1.elasticbeanstalk.com/api/products';
-  private categoryUrl = 'http://shrikart.ap-south-1.elasticbeanstalk.com/api/product-category';
+  private baseUrl = 'http://microservice.elasticbeanstalk.com/api/products';
+  private categoryUrl = 'http://microservice.elasticbeanstalk.com/api/product-category';
 
   constructor(private httpClient: HttpClient) { }
 
