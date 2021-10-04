@@ -21,4 +21,6 @@ This application is hosted in AWS. Click [AppKart](http://shrikart.s3-website.ap
 ![](DeploymentDiagram.png)
 ### Database diagram
 ![](AppKart-ERD.png)
+<br/>
 
+**Note:** Autoscaling and multiple instances are not configured in this particular instance, but just reflected in the architecture diagram to showcase the capabilities.   
