@@ -1,4 +1,4 @@
-# App Kart
+# App Kart : eCommerce application
 This is a full-stack application, developed using Angular, Spring, JPA, and MySql database.
 - A global search for products
 - Display products by category
